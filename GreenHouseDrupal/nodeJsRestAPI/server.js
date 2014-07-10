@@ -120,12 +120,6 @@ router.route('/bears')
 			res.json({ message: 'Successfully deleted' });
 		});
 	});
-	
-	
-	
-	
-	
-	
 
 	
 	// ..............................................................................................group1SpecificData api
@@ -202,11 +196,7 @@ router.route('/group1SpecificData')
 			res.json({ message: 'Successfully deleted group1SpecificData instance' });
 		});
 	});
-	
-	
-	
-	
-	
+
 	
 		// ..............................................................................................group2SpecificData api
 router.route('/group2SpecificData')
@@ -282,14 +272,7 @@ router.route('/group2SpecificData')
 			res.json({ message: 'Successfully deleted group2SpecificData instance' });
 		});
 	});
-	
-	
-	
-	
-	
-	
-	
-	
+
 	
 			// ..............................................................................................group3SpecificData api
 router.route('/group3SpecificData')
@@ -365,14 +348,7 @@ router.route('/group3SpecificData')
 			res.json({ message: 'Successfully deleted group3SpecificData instance' });
 		});
 	});
-	
-	
 
-	
-	
-	
-	
-	
 	
 			// ..............................................................................................group4SpecificData api
 router.route('/group4SpecificData')
@@ -448,15 +424,7 @@ router.route('/group4SpecificData')
 			res.json({ message: 'Successfully deleted group4SpecificData instance' });
 		});
 	});
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 	
 			// ..............................................................................................group5SpecificData api
 router.route('/group5SpecificData')
@@ -532,14 +500,7 @@ router.route('/group5SpecificData')
 			res.json({ message: 'Successfully deleted group5SpecificData instance' });
 		});
 	});
-	
-	
-	
-	
-	
-	
-	
-	
+
 	
 			// ..............................................................................................warningSpecificData api
 router.route('/warningSpecificData')
@@ -615,14 +576,7 @@ router.route('/warningSpecificData')
 			res.json({ message: 'Successfully deleted warningSpecificData instance' });
 		});
 	});
-	
-	
-	
-	
-	
-	
-	
-	
+
 	
 				// ..............................................................................................environmentSpecificData api
 router.route('/environmentSpecificData')
@@ -698,14 +652,7 @@ router.route('/environmentSpecificData')
 			res.json({ message: 'Successfully deleted environmentSpecificData instance' });
 		});
 	});
-	
-	
-	
-	
-	
-	
-	
-	
+
 	
 					// ..............................................................................................sensorsSpecificData api
 router.route('/sensorsSpecificData')
@@ -781,10 +728,7 @@ router.route('/sensorsSpecificData')
 			res.json({ message: 'Successfully deleted sensorsSpecificData instance' });
 		});
 	});
-	
-	
-	
-	
+
 	
 	
 // REGISTER OUR ROUTES -------------------------------
