@@ -17,7 +17,7 @@ var port = process.env.PORT || 8080; 		// set our port
 var mongoose   = require('mongoose');
 mongoose.connect('mongodb://127.0.0.1:27017/Group3'); // connect to our database
 
-var Bear     = require('./app/models/bear');
+//var Bear     = require('./app/models/bear');
 var Group1SpecificData = require('./app/models/group1SpecificData');
 var Group2SpecificData = require('./app/models/group2SpecificData');
 var Group3SpecificData = require('./app/models/group3SpecificData');
@@ -44,7 +44,7 @@ var router = express.Router(); 				// get an instance of the express Router
 router.get('/', function(req, res) {
 	res.json({ message: 'hooray! welcome to our api!' });	
 });
-
+/*
 // more routes for our API will happen here
 router.route('/bears')
 
@@ -121,7 +121,7 @@ router.route('/bears')
 		});
 	});
 
-	
+	*/
 	// ..............................................................................................group1SpecificData api
 router.route('/group1SpecificData')
 
